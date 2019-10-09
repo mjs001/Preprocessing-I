@@ -116,8 +116,12 @@ html, body {
 
 //main styles
 
+
+
+
 body{
 	font-size: 62.5%;
+	background: skyblue;
 }
 
 .container{
@@ -166,6 +170,39 @@ body{
 	width: 25%;	
 }	
 
+
+.upper-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	img{
+		position: relative;
+		width: 30%;
+	}
+	.clouds{
+		position: absolute;
+		.center-row();
+		justify-content: flex-end;
+		.cloud1{
+			position: absolute;
+			width: 35%;
+		}
+
+		.cloud2{
+			.second-cloud{
+				width: 28%;
+				transform: scaleX(-1);
+			}
+		}
+
+		.cloud3{
+			width: 20%;
+		}
+	}
+
+}
+
+
 .mid-section{
 	.buildings{
 		#intro{
@@ -175,17 +212,8 @@ body{
 				&:hover{
 					transform: scale(1.5);
 				}
-
 				}
-			
-		
 			}
-
 		}
 	}
 }
-
-
-
-
-	
