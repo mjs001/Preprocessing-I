@@ -134,3 +134,24 @@ html,
 body {
   height: 100%;
 }
+@font-face {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Luckiest Guy Regular'), local('LuckiestGuy-Regular'), url(https://fonts.gstatic.com/s/luckiestguy/v10/_gP_1RrxsjcxVyin9l9n_j2hTd5z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(https://fonts.gstatic.com/s/permanentmarker/v9/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v8/1cXxaUPXBpj2rGoU7C9WiHGA.ttf) format('truetype');
+}
