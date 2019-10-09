@@ -91,3 +91,101 @@ html, body {
 	align-items: center;
 }
 
+.center-column-reverse(){
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.general-btn-styling(){
+	padding: 1%;
+	background-color: @dark-yellow;
+	box-shadow: 0 4px grey;
+	border-radius: 5px;
+	width: 4rem;
+	height: 3rem;
+	color: @dark-blue;
+	font-family: @h2-font;
+		&:hover{
+			background: @dark-blue;
+			color: @off-white;
+		}
+}
+
+
+//main styles
+
+body{
+	font-size: 62.5%;
+}
+
+.container{
+	header{
+		position: relative;
+		.center-row();
+		
+			.header-img{
+				width: 35%;
+				
+			}
+	}	
+}
+
+
+.content-on-header{
+	.center-column();
+	width: 35%;
+	position: absolute;
+		h1{
+			font-family: @h1-font;
+			font-size: 2rem;
+			margin-top: 3%;
+		}
+		nav{
+			.center-row();
+			transform: rotate(2deg);
+
+			a{
+				button{
+					.general-btn-styling();
+					background: @red;
+					color: @off-white;
+					margin: 0rem 1.5rem;
+					
+					&:hover{
+						background: @off-white;
+						color: @red;
+					}
+				}
+			}
+		}
+}
+				
+.profile-pic{
+	width: 25%;	
+}	
+
+.mid-section{
+	.buildings{
+		#intro{
+			img{
+				&.grow{
+				transition: all 200ms ease-in-out;
+				&:hover{
+					transform: scale(1.5);
+				}
+
+				}
+			
+		
+			}
+
+		}
+	}
+}
+
+
+
+
+	

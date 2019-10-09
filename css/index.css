@@ -155,3 +155,64 @@ body {
   font-display: swap;
   src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v8/1cXxaUPXBpj2rGoU7C9WiHGA.ttf) format('truetype');
 }
+body {
+  font-size: 62.5%;
+}
+.container header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container header .header-img {
+  width: 35%;
+}
+.content-on-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  position: absolute;
+}
+.content-on-header h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  margin-top: 3%;
+}
+.content-on-header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(2deg);
+}
+.content-on-header nav a button {
+  padding: 1%;
+  background-color: #FF9F1C;
+  box-shadow: 0 4px grey;
+  border-radius: 5px;
+  width: 4rem;
+  height: 3rem;
+  color: #011627;
+  font-family: 'Righteous', cursive;
+  background: #F71735;
+  color: #FDFFFC;
+  margin: 0rem 1.5rem;
+}
+.content-on-header nav a button:hover {
+  background: #011627;
+  color: #FDFFFC;
+}
+.content-on-header nav a button:hover {
+  background: #FDFFFC;
+  color: #F71735;
+}
+.profile-pic {
+  width: 25%;
+}
+.mid-section .buildings #intro img.grow {
+  transition: all 200ms ease-in-out;
+}
+.mid-section .buildings #intro img.grow:hover {
+  transform: scale(1.5);
+}
