@@ -166,7 +166,13 @@ body{
 
 					font-size: 2.4rem;
 				}		
-		}
+		.profile-pic{
+			width: 25%;	
+			@media (max-width: 500px){
+				width: 80%;
+			}
+		}	
+			}
 		nav{
 			.center-row();
 			transform: rotate(2deg);
@@ -201,12 +207,7 @@ body{
 
 
 
-.profile-pic{
-	width: 25%;	
-	@media (max-width: 500px){
-		width: 80%;
-	}
-}	
+
 
 .email{
 	.general-btn-styling();
